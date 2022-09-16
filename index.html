@@ -5,8 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Password Validation Check in JavaScript</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="box">
+        <div class="input__box">
+            <input type="password" id="paswrd" placeholder="Inpur Your Password">
+            <span id="togglebtn"></span>
+        </div>
+        <div class="validation">
+            <ul>
+                <li id="lower">At least One lowercase character</li>
+                <li id="upper">At least One uppercase character</li>
+                <li id="number">At least One number</li>
+                <li id="special">At least One special character</li>
+                <li id="length">At least 8 characters</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>

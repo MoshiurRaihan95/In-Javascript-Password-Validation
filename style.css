@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Lato:wght@400;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #00092C;
+}
+.box{
+    position: relative;
+    width: 350px;
+}
+.box .input__box{
+    position: relative;
+    width: 100%;
+    background: #FFF;
+    padding: 5px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.box .input__box input{
+    position: relative;
+    padding: 16px 20px;
+    font-size: 18px;
+    line-height: 20px;
+    color: rgb(42, 42, 42);
+    outline: none;
+    border: none;
+    width: 100%;
+}
+.box .input__box #togglebtn{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.05);
+    width: 35px;
+    height: 35px;
+    right: 10px;
+    border-radius: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;  
+}
