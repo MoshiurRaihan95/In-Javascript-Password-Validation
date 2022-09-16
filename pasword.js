@@ -5,8 +5,10 @@ let togglebtn = document.getElementById('togglebtn');
 togglebtn.onclick = function(){
     if(paswrd.type === 'password'){
         paswrd.setAttribute('type', 'text');
+        togglebtn.classList.add('hide');
     }
     else{
         paswrd.setAttribute('type', 'password');
+        togglebtn.classList.remove('hide');
     }
 }
