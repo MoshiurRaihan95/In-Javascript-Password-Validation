@@ -97,3 +97,11 @@ body{
     height: 10px;
     display: inline-flex;
 }
+.validation ul li.valid{
+    color: rgba(0, 0, 0, 0.5);
+}
+.validation ul li.valid::before{
+    content: '\f00c';
+    font-family: fontAwesome;
+    color: green;
+}
