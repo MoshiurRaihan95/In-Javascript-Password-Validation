@@ -44,7 +44,7 @@ function checkPassword(data){
     else{
         specialchar.classList.remove('valid');
     }
-    // Minimu * Charecter password Validation check
+    // Minimum * Charecter password Validation check
     if(length.test(data)){
         totalpass.classList.add('valid');
     }
