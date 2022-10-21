@@ -88,7 +88,7 @@ body{
 .validation ul li{
     list-style: none;
     position: relative;
-    color: #181818;
+    color: #a50a0a;
 }
 .validation ul li::before{
     content: '\f192';
@@ -98,10 +98,10 @@ body{
     display: inline-flex;
 }
 .validation ul li.valid{
-    color: rgba(0, 0, 0, 0.5);
+    color: rgb(22, 173, 22);
 }
 .validation ul li.valid::before{
     content: '\f00c';
     font-family: fontAwesome;
-    color: green;
+    color: rgb(22, 173, 22);
 }
