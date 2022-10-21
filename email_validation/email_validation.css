@@ -1,0 +1,34 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box{
+    background-color: indigo;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box .input_box input{
+    padding: 15px 10px;
+    width: 400px;
+    border: none;
+    outline: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
